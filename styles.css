@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #492fca;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: blue; /* Changed the text color to blue */
+}
+
+.loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.ddd {
+    background-image: url(2.png);
+    background-size: cover;
+}
+
+#hi {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-align: left;
+    color:blue;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#hi:hover {
+    color: red;
+}

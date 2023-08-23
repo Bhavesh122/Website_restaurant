@@ -1,0 +1,14 @@
+.age{
+
+    background-image: url(2.png);
+    background-size: cover;
+}
+#hi{
+    text-align:left;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+}
+#hi:hover{
+    color:red
+}

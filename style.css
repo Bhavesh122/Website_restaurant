@@ -1,0 +1,53 @@
+.first-page {
+    background-image: url(w.png);
+    background-size: cover;
+}
+
+#contact {
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-right: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:white;
+}
+
+#zenith {
+    font-size: 120px;
+    color: blue;
+    text-align: center; /* Center the text horizontally */
+    position: absolute;
+    top: 5px; /* Adjust the top position */
+    left: 50%; /* Move the text to the center horizontally */
+    transform: translateX(-50%); /* Correct for horizontal centering */
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+#hi,#h,#r,#b {
+    color: blue;
+    font-size: 60px;
+    text-decoration: none;
+    transition: color 0s;
+}
+
+#hi:hover, #h:hover, #r:hover, #b:hover,#contact:hover {
+    color: red; /* Change the color to red on hover */
+}
+
+#zenith:hover{
+    color:white
+}
+#time{
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color:white;
+
+}

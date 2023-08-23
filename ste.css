@@ -1,0 +1,81 @@
+.fi-page {
+    background-image: url(2.png);
+    background-size: cover;
+}
+
+#ww{
+    text-align:center;
+    color:white;
+    font-size:50px;
+    
+}
+
+#hi{
+    text-align:left;
+    color:white;
+    font-size:25px;
+    text-decoration: none;
+}
+#hi:hover{
+    color:red
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 boxes horizontally */
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);/* 4 boxes vertically */
+    grid-gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.box p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#heading{
+    text-align:center;
+    color:white;
+    size: 50px;;
+}
+.box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/* Add a transition for smooth animation */
+.box img {
+    transition: transform 0.3s;
+  }
+  
+  /* Apply zoom effect on hover */
+  .box img:hover {
+    transform: scale(1.1); /* Adjust the scale value to your preference */
+  }
+  
